@@ -8,7 +8,7 @@ const Header = ({ foto, etiqueta, my, text }) => {
                 foto && (
                     <div>
                         <img src={foto} alt="Perfil"
-                            className="perfil mx-auto rounded-full h-auto md:h-40 w-auto md:w-40 flex items-center justify-center mb-10"
+                            className="perfil mx-auto rounded-full h-auto md:h-40 w-40 md:w-40 flex items-center justify-center mb-10"
                         />
                     </div>
                 )
