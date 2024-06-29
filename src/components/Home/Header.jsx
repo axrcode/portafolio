@@ -2,7 +2,7 @@ import RedSocial from './RedSocial'
 
 const Header = ({ foto, etiqueta, my, text }) => {
     return (
-        <div className="py-14">
+        <div className="container mx-auto py-14">
 
             {
                 foto && (

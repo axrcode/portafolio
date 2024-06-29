@@ -26,7 +26,7 @@ const Footer = () => {
 
     return (
         <div className="bg-zinc-950">
-            <div className="md:flex px-10 md:px-48 py-10">
+            <div className="container mx-auto md:flex px-10 md:px-48 py-10">
 
                 <div className="md:w-1/2 mb-8 md:pr-20">
                     <div className="p-5 border-double border-4 border-zinc-900 text-gray-300 text-center pb-8">
