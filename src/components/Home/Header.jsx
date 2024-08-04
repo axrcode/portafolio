@@ -19,11 +19,13 @@ const Header = ({ foto, etiqueta, my, text }) => {
 
             {
                 my && (
-                    <h1 className="text-2xl md:text-4xl text-center md:w-1/2 mx-auto mb-8 text-gray-400">
-                        My name is {''}
-                        <span className="font-bold text-gray-200">Axel Castillo</span>
-                        <p className='text-xl font-bold mt-5 text-gray-200 uppercase'>Fullstack Developer</p>
-                    </h1>
+                    <div className="text-center mx-auto mb-8">
+                        <h1 className="text-2xl md:text-4xl text-gray-400">
+                            My name is {''}
+                            <span className="font-bold text-gray-200 block md:inline-block">Axel Castillo</span>
+                        </h1>
+                        <p className='text-xl md:text-2xl font-bold mt-5 text-gray-200 uppercase'>Fullstack Developer</p>
+                    </div>
                 )
             }
 
