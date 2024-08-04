@@ -6,7 +6,7 @@ import foto from '../assets/img/others/perfil-axrcode.png'
 const Home = () => {
 
     return (
-        <div className="bg-zinc-900">
+        <div className="bg-[#090c0f]">
             <Header
                 foto={foto}
                 etiqueta="Hello World"

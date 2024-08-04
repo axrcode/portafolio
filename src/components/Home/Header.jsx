@@ -1,14 +1,12 @@
-import RedSocial from './RedSocial'
-
 const Header = ({ foto, etiqueta, my, text }) => {
     return (
-        <div className="container mx-auto py-14">
+        <div className="container mx-auto pb-14 pt-4 md:pt-10">
 
             {
                 foto && (
                     <div>
                         <img src={foto} alt="Perfil"
-                            className="perfil mx-auto rounded-full h-auto md:h-40 w-40 md:w-40 flex items-center justify-center mb-10"
+                            className="perfil mx-auto rounded-full h-auto md:h-52 w-40 md:w-52 flex items-center justify-center mb-10 p-1 border-solid border-4 border-gray-400 hover:scale-110 ease-in duration-300"
                         />
                     </div>
                 )

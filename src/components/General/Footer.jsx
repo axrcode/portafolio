@@ -25,17 +25,18 @@ const Footer = () => {
     ]
 
     return (
-        <div className="bg-zinc-950">
+        <div className="bg-[#06080b]">
             <div className="container mx-auto md:flex px-10 md:px-48 py-10">
 
                 <div className="md:w-1/2 mb-8 md:pr-20">
-                    <div className="p-5 border-double border-4 border-zinc-900 text-gray-300 text-center pb-8">
+                    <div className="p-5 border-double border-4 border-zinc-900 text-gray-300 text-center pb-8 md:px-28">
                         <h3 className="font-black text-gray-300 text-xl px-3 text-center uppercase pb-2 mb-5 border-zinc-700">
                             Contact by email
                         </h3>
-                        <a  href="mailto:axrcode@gmail.com"
-                            className="bg-zinc-900 py-2 px-5 md:px-20 text-gray-400 rounded-md uppercase font-bold hover:bg-zinc-800 cursor-pointer transition-all mx-auto">
+                        <a  href="mailto:axrcode@gmail.com">
+                            <div className="bg-[#090c0f] hover:bg-[#0f141a] hover:scale-110 ease-in duration-300 text-gray-400 rounded-md uppercase font-bold py-2 px-5 md:px-20 mx-auto cursor-pointer">
                             {''} Click here {''}
+                            </div>
                         </a>
                     </div>
                 </div>
@@ -62,7 +63,7 @@ const Footer = () => {
 
             </div>
 
-            <div className="bg-zinc-950 flex justify-center py-4">
+            <div className="flex justify-center py-4">
                 <img src={logo} alt="AXRCODE" className="logo h-10 w-auto"/>
                 <h1 className="text-lg font-black mt-2 ml-2 text-gray-200">
                     &copy; { year }

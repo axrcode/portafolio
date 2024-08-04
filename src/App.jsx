@@ -6,7 +6,7 @@ import logo from './assets/img/icons/logo-axrcode.png'
 function App() {
 
   return (
-    <div className="bg-zinc-950">
+    <div className="bg-[#090c0f]">
       <Navbar logo={logo} />
       <Home />
     </div>
